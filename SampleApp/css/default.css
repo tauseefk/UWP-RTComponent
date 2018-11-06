@@ -1,0 +1,16 @@
+﻿body
+{
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr 14fr;
+    display: -ms-grid;
+}
+
+#buttons {
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: auto;
+    -ms-grid-row-align: start;
+}
+#output {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+}
